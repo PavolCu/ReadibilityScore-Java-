@@ -1,0 +1,13 @@
+content:
+- Statements
+- ' Hello  string'
+- Statements (1)
+- Theory
+- Calling basic methods
+- Appending strings and ints
+- Extracting a substring
+- Replacing 'a' with 'b'
+- Comparing strings ignoring whitespaces
+- Extracting a character
+- Operations with strings
+- Comparing strings
