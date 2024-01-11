@@ -3,10 +3,9 @@ package readability;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-
+import java.util.Arrays;
 
 import static readability.AgesTable.getGroupByScore;
-
 
 public class Main {
 
@@ -18,32 +17,69 @@ public class Main {
         return new String(Files.readAllBytes(Paths.get(fName)));
     }
 
+    public static int countSyllables(String word) {
+        String vowels = "aeiouy";
+        word = word.toLowerCase();
+
+        int count = 0;
+        for (int i = 0; i < word.length(); i++) {
+            if (vowels.indexOf(word.charAt(i)) >= 0) {
+                count++;
+                if (i < word.length() - 1 && vowels.indexOf(word.charAt(i + 1)) >= 0) {
+                    count--;
+                }
+            }
+        }
+
+        if (word.endsWith("e")) {
+            count--;
+        }
+
+        if (count == 0) {
+            count = 1;
+        }
+
+        return count;
+    }
+
     public static void main(String[] args) {
-        String pathToTheFile = "/Users/cuninkapavol/IdeaProjects/Readability Score (Java)/Readability Score (Java)/task/src/readability/in.txt";
         try {
-            String text = readFileToString(args[0]);
-            int scoreFloorPrecision = 2;  // args[1]
+            if (args.length > 0) {
+                String text = readFileToString(args[0]);
+                int scoreFloorPrecision = 2;
 
-            int sentences = text.split("[?.!]+\\s*").length;
-            int words = text.split("\\s*(?<!\\d)[-?.!,:;\\s]+|[-?.!,:;\\s]+(?!\\d)\\s*").length;
-            int characters = text.replace("\s","").length();
-            int syllables = text.split("\\s*(?<!\\d)[-?.!,:;\\s]+|[-?.!,:;\\s]+(?!\\d)\\s*").length;
-            int polysyllables = text.split("\\s*(?<!\\d)[-?.!,:;\\s]+|[-?.!,:;\\s]+(?!\\d)\\s*").length;
-            System.out.printf("The text is:%n%s%n%n", text);
-            System.out.printf("Words: %s%n", words);
-            System.out.printf("Sentences: %s%n", sentences);
-            System.out.printf("Characters: %s%n", characters);
-            System.out.printf("Syllables: %s%n", syllables);
-            System.out.printf("Polysyllables: %s%n", polysyllables);
-            System.out.println(readFileToString(pathToTheFile));
+                int sentences = text.split("[?.!]+\\s*").length;
+                String[] wordsArray = text.split("\\s*(?<!\\d)[-?.!,:;\\s]+|[-?.!,:;\\s]+(?!\\d)\\s*");
+                int words = wordsArray.length;
+                int characters = text.replace("\s", "").length();
+                int syllables = Arrays.stream(wordsArray).mapToInt(Main::countSyllables).sum();
+                int polysyllables = (int) Arrays.stream(wordsArray).filter(word -> countSyllables(word) > 2).count();
+                System.out.printf("The text is:%n%s%n%n", text);
+                System.out.printf("Words: %s%n", words);
+                System.out.printf("Sentences: %s%n", sentences);
+                System.out.printf("Characters: %s%n", characters);
+                System.out.printf("Syllables: %s%n", syllables);
+                System.out.printf("Polysyllables: %s%n", polysyllables);
 
-            double score = DOUBLE4_71 * characters / words + DOUBLE0_5 * words / sentences - DOUBLE21_43;
-            double scoreTruncated = truncate(score, scoreFloorPrecision);
+                double scoreARI = DOUBLE4_71 * characters / words + DOUBLE0_5 * words / sentences - DOUBLE21_43;
+                double scoreFK = 0.39 * words / sentences + 11.8 * syllables / words - 15.59;
+                double scoreSMOG = 1.043 * Math.sqrt(polysyllables * 30 / sentences) + 3.1291;
+                double scoreCL = 0.0588 * characters / words * 100 - 0.296 * sentences / words * 100 - 15.8;
 
-            System.out.printf("The score is: %s%n", scoreTruncated);
-            System.out.printf("This text should be understood by %s.", getGroupByScore(score));
+                double scoreTruncated = truncate(scoreARI, scoreFloorPrecision);
 
-        } catch (IOException err) {
+                System.out.printf("The score is: %s%n", scoreTruncated);
+                System.out.printf("This text should be understood by %s.%n", getGroupByScore(scoreARI));
+                System.out.printf("Automated Readability Index: %.2f (about %s).%n", scoreARI, getGroupByScore(scoreARI));
+                System.out.printf("Flesch–Kincaid readability tests: %.2f (about %s).%n", scoreFK, getGroupByScore(scoreFK));
+                System.out.printf("Simple Measure of Gobbledygook: %.2f (about %s).%n", scoreSMOG, getGroupByScore(scoreSMOG));
+                System.out.printf("Coleman–Liau index: %.2f (about %s).%n", scoreCL, getGroupByScore(scoreCL));
+
+            } else {
+                System.out.println("Please provide a file name as a command line argument.");
+            }
+
+        } catch(IOException err){
             System.out.println(err.getMessage());
         }
     }

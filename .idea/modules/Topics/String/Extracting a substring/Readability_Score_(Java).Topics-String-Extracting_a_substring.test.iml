@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Extracting a substring/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Extracting a substring/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-String-Extracting_a_substring.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

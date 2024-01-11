@@ -1,4 +1,4 @@
-<h2>Random</h2>
+<h2>Random class</h2>
 <div class="step-text">
 <p>A <strong>random number</strong> is a number that is almost impossible to predict, like the result of throwing a dice. A random number generator can provide you with such a number when you need it, and you will probably need it quite often. For example, it comes in handy when you're trying to create a password nobody can guess, make the next unpredictable move in a game, or generate a lot of random data for testing purposes. Random generators are widely used in cryptography, machine learning, games, and more.</p>
 <h5 id="pseudorandom-numbers-and-seeding" style="text-align: center;">Pseudorandom numbers and seeding</h5>
@@ -47,13 +47,13 @@ System.out.println(random.nextInt(5)); // it may print 0, 1, 2, 3, 4</code></pre
 <h5 id="an-example-printing-pseudorandom-numbers" style="text-align: center;">An example: printing pseudorandom numbers</h5>
 <p>Let's suppose that we need a program that prints out a specified number of pseudorandom integers within a given range (boundaries included). Unfortunately, the <code class="language-java">Random</code> class does not provide a method to generate numbers in a range. Let's use it as an opportunity to practice and create it from scratch!</p>
 <p>As you remember, the <code class="language-java">nextInt(n)</code> method produces a pseudorandom integer from <code class="language-java">0</code> (inclusive) to <code class="language-java">n</code> (exclusive).</p>
-<p style="text-align: center;"><img alt="Pseudorandom number from 0 to n image" height="64" src="https://ucarecdn.com/655547bc-1f49-4156-8ed5-bda751413f14/" width="216"/></p>
+<p style="text-align: center;"><picture><img alt="Pseudorandom number from 0 to n image" height="64" src="https://ucarecdn.com/655547bc-1f49-4156-8ed5-bda751413f14/" width="216"/></picture></p>
 <p>We want to use it to generate numbers within a specific range, for example, from 2 to 5, including both boundaries.</p>
-<p style="text-align: center;"><img alt="the numbers from 2 to 5 inclusive image" height="48" src="https://ucarecdn.com/c0f1974f-0476-448d-b664-04e95a746362/" width="290"/></p>
+<p style="text-align: center;"><picture><img alt="the numbers from 2 to 5 inclusive image" height="48" src="https://ucarecdn.com/c0f1974f-0476-448d-b664-04e95a746362/" width="290"/></picture></p>
 <p>Let's take the length of the interval plus one: 5 – 2 + 1 = 4. It allows us to generate any number from 0 to 3 by using the <code class="language-java">nextInt(4)</code> method.</p>
-<p style="text-align: center;"><img alt="take interval from 0 to 3 inclusive image" height="48" src="https://ucarecdn.com/f46f53d9-9af0-4191-8a64-4f66af44497c/" width="289"/></p>
+<p style="text-align: center;"><picture><img alt="take interval from 0 to 3 inclusive image" height="48" src="https://ucarecdn.com/f46f53d9-9af0-4191-8a64-4f66af44497c/" width="289"/></picture></p>
 <p>Now imagine that we shift the interval to the value of the lower border (2) as we need.</p>
-<p style="text-align: center;"><img alt="interval from 2 to 5 inclusive image" height="49" src="https://ucarecdn.com/c1baea68-4005-4b91-a0ce-dd3480031789/" width="296"/></p>
+<p style="text-align: center;"><picture><img alt="interval from 2 to 5 inclusive image" height="49" src="https://ucarecdn.com/c1baea68-4005-4b91-a0ce-dd3480031789/" width="296"/></picture></p>
 <p>This way, we can generate any numbers from 2 to 5, including both boundaries.</p>
 <p>The illustrated idea can be implemented by a simple code line:</p>
 <pre><code class="language-java">int next = random.nextInt(upper - lower + 1) + lower;</code></pre>

@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Errors in programs/Spot the Errors  Reading and Summing Integers/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Errors in programs/Spot the Errors  Reading and Summing Integers/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Errors_in_programs-Spot_the_Errors__Reading_and_Summing_Integers.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

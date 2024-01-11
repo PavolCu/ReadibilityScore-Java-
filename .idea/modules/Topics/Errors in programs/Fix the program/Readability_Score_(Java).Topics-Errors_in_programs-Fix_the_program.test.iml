@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Errors in programs/Fix the program/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Errors in programs/Fix the program/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Errors_in_programs-Fix_the_program.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

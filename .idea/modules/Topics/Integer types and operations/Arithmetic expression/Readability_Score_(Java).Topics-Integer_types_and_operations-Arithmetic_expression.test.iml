@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Integer types and operations/Arithmetic expression/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Integer types and operations/Arithmetic expression/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Integer_types_and_operations-Arithmetic_expression.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

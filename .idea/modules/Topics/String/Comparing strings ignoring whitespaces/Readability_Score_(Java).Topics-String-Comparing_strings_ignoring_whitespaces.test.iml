@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Comparing strings ignoring whitespaces/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Comparing strings ignoring whitespaces/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-String-Comparing_strings_ignoring_whitespaces.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

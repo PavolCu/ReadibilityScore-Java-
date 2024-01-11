@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Random/The result of a method/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Random/The result of a method/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Random-The_result_of_a_method.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

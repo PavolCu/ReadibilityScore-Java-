@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Errors in programs/Watch Out for Potential Errors/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Errors in programs/Watch Out for Potential Errors/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Errors_in_programs-Watch_Out_for_Potential_Errors.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Random/Which values can be generated/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Random/Which values can be generated/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Random-Which_values_can_be_generated.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

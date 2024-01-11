@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Appending strings and ints/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Appending strings and ints/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-String-Appending_strings_and_ints.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

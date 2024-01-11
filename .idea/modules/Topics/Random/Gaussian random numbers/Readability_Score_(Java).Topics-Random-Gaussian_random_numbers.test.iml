@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Random/Gaussian random numbers/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Random/Gaussian random numbers/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Random-Gaussian_random_numbers.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

@@ -17,7 +17,14 @@ public enum AgesTable {
     GROUP_ELE("15-16", 11),
     GROUP_TWE("16-17", 12),
     GROUP_THI("17-18", 13),
-    GROUP_FIN("18-22", 14);
+    GROUP_FOUr("18-19", 14),
+    GROUP_FIVE("19-20", 15),
+    GROUP_SIXT("20-21", 16),
+    GROUP_SEVE("21-22", 17),
+    GROUP_EIGH("22-23", 18),
+    GROUP_NINE("23-24", 19),
+    GROUP_TWEN("24-25", 20);
+
 
     private final String group;
     private final int score;

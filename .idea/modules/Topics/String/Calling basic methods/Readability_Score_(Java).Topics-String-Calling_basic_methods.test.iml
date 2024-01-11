@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Calling basic methods/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Calling basic methods/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-String-Calling_basic_methods.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

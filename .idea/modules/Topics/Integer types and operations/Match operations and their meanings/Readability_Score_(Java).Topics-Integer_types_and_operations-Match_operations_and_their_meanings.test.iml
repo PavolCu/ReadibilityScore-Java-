@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Integer types and operations/Match operations and their meanings/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Integer types and operations/Match operations and their meanings/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Integer_types_and_operations-Match_operations_and_their_meanings.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Integer types and operations/Good rest on vacation/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Integer types and operations/Good rest on vacation/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Integer_types_and_operations-Good_rest_on_vacation.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

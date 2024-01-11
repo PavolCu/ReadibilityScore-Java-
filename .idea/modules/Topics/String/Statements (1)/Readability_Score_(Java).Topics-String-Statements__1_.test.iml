@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Statements (1)/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Statements (1)/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-String-Statements__1_.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

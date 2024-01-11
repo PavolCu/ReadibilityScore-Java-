@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Errors in programs/Print the age/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Errors in programs/Print the age/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Errors_in_programs-Print_the_age.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

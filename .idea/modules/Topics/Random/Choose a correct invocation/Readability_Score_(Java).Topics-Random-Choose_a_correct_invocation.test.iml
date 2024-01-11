@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Random/Choose a correct invocation/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Random/Choose a correct invocation/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Random-Choose_a_correct_invocation.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

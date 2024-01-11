@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Fields and methods in enum/Robot control/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Fields and methods in enum/Robot control/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Fields_and_methods_in_enum-Robot_control.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

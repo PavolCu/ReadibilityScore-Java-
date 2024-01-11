@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Random/Find the seed/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/Random/Find the seed/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-Random-Find_the_seed.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

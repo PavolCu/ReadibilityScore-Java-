@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/22933/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Thu, 09 Nov 2023 11:09:40 UTC"
+update_date: "Thu, 11 Jan 2024 16:23:56 UTC"
 stages:
   - id: 205
     step: 5262
@@ -16,7 +16,7 @@ stages:
     is_completed: true
   - id: 208
     step: 5265
-    is_completed: false
+    is_completed: true
 topics:
   0:
     - title: "Write, compile, and run"
@@ -27,8 +27,10 @@ topics:
       theory_id: 8977
     - title: Parameters and options
       theory_id: 9746
+    - title: Running programs on your computer
+      theory_id: 3746
     - title: Introduction to Java
-      theory_id: 3500
+      theory_id: 38627
     - title: "Basic literals: numbers, strings and characters"
       theory_id: 3522
     - title: Writing first program
@@ -79,8 +81,6 @@ topics:
       theory_id: 3514
     - title: String
       theory_id: 3523
-    - title: Running programs on your computer
-      theory_id: 3746
   1:
     - title: "Multiple conditions: switch"
       theory_id: 3504
@@ -94,8 +94,6 @@ topics:
       theory_id: 3594
     - title: Iterating over arrays
       theory_id: 3602
-    - title: What is object-oriented programming
-      theory_id: 3614
     - title: Processing strings
       theory_id: 3551
     - title: Regexps in Java
@@ -112,7 +110,7 @@ topics:
       theory_id: 5819
     - title: JetBrains Academy plugin
       theory_id: 5839
-    - title: Regexps basics
+    - title: Regular expression
       theory_id: 7580
     - title: Defining classes
       theory_id: 3618
@@ -127,13 +125,11 @@ topics:
       theory_id: 3536
     - title: First glance at exceptions
       theory_id: 3497
-    - title: Grouping classes with packages
-      theory_id: 3621
     - title: Hierarchy of exceptions
       theory_id: 3570
     - title: Exception handling
       theory_id: 3552
-    - title: Files
+    - title: File class
       theory_id: 3635
     - title: Reading files
       theory_id: 3636
@@ -153,6 +149,8 @@ topics:
       theory_id: 10630
     - title: Floating-point types
       theory_id: 3517
+    - title: Grouping classes with packages
+      theory_id: 3621
     - title: Access modifiers
       theory_id: 3589
     - title: Getters and setters
@@ -161,9 +159,9 @@ topics:
       theory_id: 3583
     - title: Multiple constructors
       theory_id: 3538
-    - title: The keyword super
+    - title: Keyword "super"
       theory_id: 3588
-    - title: Objects
+    - title: Objects and their properties
       theory_id: 4727
   3:
     - title: Math library

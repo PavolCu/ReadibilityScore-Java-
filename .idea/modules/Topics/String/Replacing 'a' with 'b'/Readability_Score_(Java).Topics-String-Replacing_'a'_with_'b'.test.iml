@@ -5,7 +5,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Replacing 'a' with 'b'/src/test" />
     <content url="file://$MODULE_DIR$/../../../../../Topics/String/Replacing 'a' with 'b'/test" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Readability_Score_(Java).Topics-String-Replacing_'a'_with_'b'.main" />
     <orderEntry type="module" module-name="Readability_Score_(Java).util.main" />

@@ -475,26 +475,9 @@ files:
     visible: true
     learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5265#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #1
-
-    There is no syllables in output
-
-    Please find below the output of your program during this failed test.
-
-    ---
-
-    Arguments: input.txt
-
-    The text is:
-    Readability is the ease with which a reader can understand a written text. In natural language, the readability of text depends on its content and its presentation. Researchers have used various factors to measure readability. Readability is more than simply legibility, which is a measure of how easily a reader can distinguish individual letters or characters from each other. Higher readability eases reading effort and speed for any reader, but it is especially important for those who do not have high reading comprehension. In readers with poor reading comprehension, raising the readability level of a text from mediocre to good can make the difference between success and failure
-
-    Words: 108
-    Sentences: 6
-    Characters: 580
-    The score is: 12.86
-    This text should be understood by 17-18 year-olds.
-  time: "Sun, 06 Aug 2023 15:12:21 UTC"
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Thu, 11 Jan 2024 18:23:49 UTC"
 record: 4
